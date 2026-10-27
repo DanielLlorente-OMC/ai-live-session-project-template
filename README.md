@@ -4,11 +4,14 @@ Plantilla reutilizable para organizar proyectos y practicar un flujo con GitHub,
 
 ## Empezar
 
-1. Crea una cuenta gratuita GitHub con correo OMC y usuario NombreApellido-OMC; verifica el correo.
-2. Usa **Use this template → Create a new repository** para crear tu copia. Elige su visibilidad conscientemente; no incluyas datos internos en repositorios públicos.
-3. Crea o abre una carpeta local y un chat llamado Centro de Control con acceso a esa carpeta.
-4. Copia el [prompt de arranque](00-arranque-centro-de-control.md), sustituye nombre y URL por los de tu proyecto y pide clonar tu copia.
-5. Elige uno de los [cinco ejercicios](05-design/ejercicios/README.md).
+1. Prepara tu cuenta GitHub gratuita con correo OMC y usuario NombreApellido-OMC.
+2. Abre una carpeta local o un espacio de archivos en la nube compatible con tu agente.
+3. Copia el [prompt de arranque](00-arranque-centro-de-control.md): te ayudará a clonar o descargar esta base sin crear todavía un repositorio propio.
+4. Elige un ejercicio, construye la home y dedica cinco minutos a refinarla.
+5. Con tu primera versión aprobada, crea un repositorio NUEVO y PRIVADO, guarda toda la estructura y haz commit y push a ese destino.
+6. Crea la home y librería en Figma, añade un plus en HTML, actualiza Figma y cierra con otro commit y push.
+
+[Guía visual paso a paso](artefacto/guia-formacion/index.html). Descarga o clona el repositorio para abrirla en el navegador.
 
 ## Estructura
 
@@ -25,7 +28,7 @@ Plantilla reutilizable para organizar proyectos y practicar un flujo con GitHub,
 
 ## Recorrido del taller
 
-Preparar copia local → elegir ejercicio → construir home → revisar → commit y push → dos cambios → Figma editable y fundamentos → cambio en Figma → HTML actualizado → nueva versión.
+Cuenta → copia local o nube → Centro de Control y skills → home y cinco minutos de feedback → repositorio privado y commit/push → Figma y librería → plus en HTML → actualización de Figma → cierre y commit/push.
 
 Repositorio: archivos e historial. Clonar: descargar una copia con historial. Commit: guardar una versión local. Push: subir versiones. Pull: traer cambios. Clonar el original no concede permisos de escritura.
 
@@ -38,3 +41,11 @@ Se necesita un agente con acceso a archivos y ejecución para clonar, instalar s
 Los ejercicios enlazan shots de Dribbble con atribución; no distribuyen imágenes ni assets de sus autores. Los enlaces y descripciones fueron consultados; la selección visual definitiva queda pendiente de revisar las imágenes. Las paletas propuestas son originales del ejercicio. No se presenta este material como metodología oficial de empresa.
 
 No se concede una licencia adicional sobre diseños ni materiales de terceros. Esta publicación no incorpora ninguna licencia general de reutilización; su elección queda pendiente del propietario.
+
+## Figma del curso
+
+[Carpeta compartida y alternativa MRM](08-links/figma.md). Cada participante crea su propio archivo; quien no tenga acceso a Tribal puede trabajar en su espacio de MRM.
+
+## Descargar la formacion
+
+Pulsa **Code → Download ZIP**, descomprime la carpeta y abre `artefacto/guia-formacion/index.html` en tu navegador. La guia incluye diez pasos, prompts copiables, pildoras y seguimiento local. Los enlaces externos necesitan internet.

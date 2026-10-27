@@ -1,0 +1,31 @@
+/* Exact integrated GEO CTA rules. See DESIGN-SOURCES.md. */
+.geo-cta{position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border:0;border-radius:6px;background:#fff;color:#1e1e1e;text-decoration:none;font-size:16px;cursor:pointer}
+.geo-cta::before{content:"";position:absolute;inset:-2px;z-index:-1;border-radius:8px;background:conic-gradient(#64e3b4,#64bfe3,#9672ef,#ff6e3a,#64e3b4);opacity:0;transition:opacity .25s}
+.geo-cta:hover::before,.geo-cta:focus-visible::before{opacity:1}
+.geo-cta-dark{background:#1e1e1e;color:#fff}
+/* Guide integration: inherited typography, focus token, icon spacing and disabled adapter. */
+:root{--focus-ring:0 0 0 3px #79C6BB}
+.geo-cta{font-family:inherit;gap:10px;line-height:1.4;font-weight:400}
+.geo-cta:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.geo-cta:hover{background:#fff;color:#1e1e1e}
+.geo-cta.geo-cta-dark:hover{background:#1e1e1e;color:#fff}
+.topbar a.repository-cta.geo-cta{min-height:48px;padding:12px 24px;border:0;border-radius:6px;background:#fff;color:#1e1e1e;font-size:16px;font-weight:400;gap:10px}
+.topbar a.repository-cta.geo-cta:focus-visible{outline:0;box-shadow:var(--focus-ring)}
+.carbon-icon{display:inline-block;flex:0 0 auto;width:20px;height:20px;vertical-align:middle;object-fit:contain}
+.geo-cta-dark .carbon-icon{filter:invert(1)}
+.icon-back{transform:rotate(180deg)}
+/* Explicit adaptation: GEO does not define a disabled treatment. */
+.geo-cta:disabled{opacity:.35;cursor:default}
+.geo-cta:disabled::before{opacity:0}
+.knowledge-pill summary::after,.prompt-module summary::after{content:'';width:20px;height:20px;border:0;background:#555;mask:url('assets/icons/carbon/chevron--right.svg') center/contain no-repeat;-webkit-mask:url('assets/icons/carbon/chevron--right.svg') center/contain no-repeat;transform:rotate(90deg);top:16px}
+.knowledge-pill[open]>summary::after,.prompt-module details[open]>summary::after{transform:rotate(-90deg)}
+.completion-circle .carbon-icon{width:32px;height:32px;opacity:.35}
+.completion-control input:checked+.completion-circle{background:transparent;border-color:transparent}
+.completion-control input:checked+.completion-circle .carbon-icon{opacity:1;filter:invert(32%) sepia(21%) saturate(1482%) hue-rotate(123deg) brightness(88%) contrast(89%)}
+.sidebar-check .carbon-icon{width:24px;height:24px;opacity:0}
+.sidebar-check input:checked+span{background:transparent;border-color:transparent}
+.sidebar-check input:checked+span .carbon-icon{opacity:1;filter:invert(32%) sepia(21%) saturate(1482%) hue-rotate(123deg) brightness(88%) contrast(89%)}
+.celebration-close .carbon-icon{width:24px;height:24px}
+.environment-mark .environment-carbon{width:80px;height:80px}
+@media(prefers-reduced-motion:reduce){.geo-cta,.geo-cta::before{transition:none!important;animation:none!important}}
+@media(max-width:600px){.topbar a.repository-cta.geo-cta{font-size:14px;padding:12px 16px}.environment-mark .environment-carbon{width:60px;height:60px}}

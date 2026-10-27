@@ -20,12 +20,13 @@ Utiliza el [prompt de arranque](../../00-arranque-centro-de-control.md) para pre
 
 ## Secuencia
 
-1. Elegir un ejercicio y abrir su referencia Dribbble.
-2. Pedir al Centro de Control que construya la home.
-3. Revisar y guardar una primera versión.
-4. Pedir los dos cambios por separado y revisar.
-5. Conectar Figma y crear la home editable con sus fundamentos.
-6. Hacer un cambio en Figma y pedir que se aplique al HTML.
-7. Revisar y guardar otra versión; pedir el push cuando corresponda.
+1. Preparar cuenta y copiar la base localmente o en un espacio de archivos en la nube.
+2. Arrancar el Centro de Control y comprobar skills.
+3. Elegir un ejercicio y construir la home.
+4. Dar cinco minutos de feedback y aprobar una primera versión.
+5. Crear un repositorio nuevo y privado; guardar estructura, commit y push.
+6. Crear la home editable y librería en Figma.
+7. Añadir un plus al HTML y actualizar Figma.
+8. Revisar, cerrar y guardar commit y push final.
 
 Las paletas de los briefs son propuestas propias, no extracciones verificadas de las imágenes. Las referencias son enlaces atribuidos: no se redistribuyen imágenes de los autores. Solo se han consultado enlaces y descripciones; queda revisar visualmente los shots antes de elegir los definitivos.

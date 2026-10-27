@@ -1,0 +1,13 @@
+Carbon Design System icons
+==========================
+These SVG files (32px variants) come from the npm package @carbon/icons
+version 11.89.0 (https://github.com/carbon-design-system/carbon,
+https://www.carbondesignsystem.com/building-blocks/foundations/icons/library),
+licensed under the Apache License 2.0 (see LICENSE in this folder).
+
+Copyright IBM Corp. and the Carbon Design System contributors.
+
+The files are vendored unmodified. They are inlined at render time by
+aeo_audit/platform/icons.py (the only place that reads them); nothing is loaded
+from a CDN at runtime. To add an icon, copy it from
+`@carbon/icons/svg/32/<name>.svg` (npm pack @carbon/icons) into this folder.
