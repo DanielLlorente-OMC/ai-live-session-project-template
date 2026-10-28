@@ -49,3 +49,7 @@ No se concede una licencia adicional sobre diseños ni materiales de terceros. E
 ## Descargar la formacion
 
 Pulsa **Code → Download ZIP**, descomprime la carpeta y abre `artefacto/guia-formacion/index.html` en tu navegador. La guia incluye diez pasos, prompts copiables, pildoras y seguimiento local. Los enlaces externos necesitan internet.
+
+## Actualizar conservando tus checks
+
+Antes de sustituir la carpeta, consulta [Actualizar sin perder progreso](ACTUALIZAR-SIN-PERDER-PROGRESO.md). La guia permite exportar e importar un JSON de checks; no se sube informacion personal al repositorio.

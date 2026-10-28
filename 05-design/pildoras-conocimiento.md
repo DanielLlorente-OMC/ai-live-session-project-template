@@ -120,3 +120,18 @@ Guarda una nota con la ruta de apertura, el enlace a Figma, el último resultado
 
 [Volver al repositorio del taller](https://github.com/DanielLlorente-OMC/ai-live-session-project-template)
 
+
+
+## Trabajo compartido: commit, push y pull request
+
+Son tres momentos del flujo, no niveles de confidencialidad ni tres lugares documentales:
+
+1. **Commit:** guarda localmente un cambio coherente, incluida su documentación si se ve afectada.
+2. **Push:** envía commits a una rama remota. No implica aprobación, integración ni despliegue.
+3. **Pull request:** propone revisar e integrar una rama en otra; explica motivo, cambios, comprobaciones y documentación afectada.
+
+Tras revisiones y comprobaciones llega el **merge**. La publicación del producto depende de su proceso de despliegue. **Pull** trae e integra cambios remotos en tu copia y no equivale a pull request.
+
+En esta primera formación basta commit y push al repositorio privado del ejercicio; la pull request se introduce para entender el trabajo de equipo. La estructura inicial se utilizó como recurso didáctico, sin sustituir una definición previa del producto. Las copias de los prompts de la guía son material formativo; en el proyecto real se acuerda una ubicación documental, con copia de trabajo local y remoto GitHub.
+
+Referencia: https://docs.github.com/en/get-started/using-github/hello-world

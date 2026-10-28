@@ -29,3 +29,5 @@ main{max-width:none;padding:0;margin:0}.step{padding:0;border:0;scroll-margin-to
 /* Keep the input before its visual indicator for state selectors; reorder only presentation. */
 .completion-copy{order:1;flex:1;min-width:0}.completion-circle{order:2;margin-left:auto}
 .pill-resources{border-top:1px solid #e5e5e5;margin-top:20px;padding-top:16px;display:flex;flex-direction:column;gap:10px;font-size:15px}.pill-resources>strong{font-size:12px;color:#606060}.pill-resources a{display:inline-flex;align-items:center;gap:8px;align-self:flex-start}.pill-resources .carbon-icon{width:16px;height:16px;flex-shrink:0}.knowledge-pill h3{margin:24px 0 10px;font-size:18px}
+
+.progress-backup{border:1px solid #e8e8e8;border-radius:6px;padding:12px;margin:0 0 20px;font-size:13px;background:#fafafa}.progress-backup summary{font-size:14px}.progress-backup .geo-cta{font-size:13px;padding:10px 14px;margin:8px 0}.import-progress{display:block;font-size:13px;margin:12px 0}.import-progress input{display:block;width:100%;font-size:12px;margin-top:8px}#backup-status{color:#176b63;font-size:13px}.progress-backup .note{font-size:12px}
